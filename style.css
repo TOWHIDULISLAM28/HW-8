@@ -1,0 +1,60 @@
+/* common section css start */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+}
+.row{
+    display: flex;
+    flex-wrap:wrap;
+}
+/* common section css end */
+#header{
+    font-family: 'ubuntu','sens-serif';
+}
+#header .top_header{
+    background-color: rgb(15, 47,68);
+    color:white;
+    font-weight: 400px;
+    padding: 15px 0;
+}
+#header .top_header .row{
+    justify-content:space-between;
+}
+#header .nav div .row{
+    align-items: center;
+}
+#header .nav div {
+    padding: 20PX;
+}
+#header .nav .logo{
+    width: 20%;
+}
+#header .nav .menu{
+    width: 80%;
+}
+
+#header .nav .menu ul li{
+    display:inline-block;
+    
+    
+}
+#header .nav .menu ul li a{
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #222;
+    justify-content:space-between;
+    transition: 0.5s linear;
+}
+
